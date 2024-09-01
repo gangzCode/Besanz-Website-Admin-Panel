@@ -1,0 +1,36 @@
+{
+  "name": "besanz-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^3.5.0",
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.16",
+    "@mui/material-nextjs": "^5.15.11",
+    "axios": "^1.6.8",
+    "formik": "^2.4.5",
+    "next": "14.1.3",
+    "react": "^18",
+    "react-date-range": "^2.0.1",
+    "react-dom": "^18",
+    "sweetalert2": "^11.10.6",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-date-range": "^1.4.9",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.3",
+    "typescript": "^5"
+  }
+}

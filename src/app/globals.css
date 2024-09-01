@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.swal2-container {
+  z-index: 9999;
+}
+
+body.swal2-height-auto {
+  height: 100% !important
+}
+
+.custom-select .Mui-selected {
+  background: red !important;
+}
